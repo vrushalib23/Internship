@@ -11,15 +11,19 @@
     
 }
 
+.image
+{display: flex;
+  align-items: flex;
+  justify-content: center;
 
+}
 
 img {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    margin-left: 550px;
-  margin-left: 100px;
-     
+    height: 250px;
+    width: 250px;
+    
+    
+  
 }
 
  

@@ -1,0 +1,25 @@
+body{
+    background-color: red;
+    color: white;
+    animation: myanimation 8s linear 2s infinite;
+}
+@keyframes myanimation{
+
+
+0%{
+background-color:aquamarine;
+
+}
+10%{
+    background-color:mediumseagreen;
+}
+25%{
+    background-color:yellow;
+}
+50%{
+    background-color:red;
+}
+70%{
+    background-color:aquamarine;
+}
+}

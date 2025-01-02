@@ -1,0 +1,68 @@
+table{
+    border: 1px solid;
+     border-collapse: collapse ;
+}
+
+tr,th,td{
+    border : 1px solid;
+   
+}
+img{
+    opacity: 0.5;
+    width: 150px;
+    height: 150px
+    
+}
+
+img:hover
+{
+ opacity: 1.5;
+}
+.nav{
+    display: flex;
+margin: 15px;
+}
+ li{
+    margin: 15px; 
+
+}
+ul
+{
+    list-style: none;
+}
+.push-right
+{
+    margin-left: auto;
+     
+}
+.mybtn{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.redbtn
+{
+    border :2px solid red;
+
+}
+.redbtn:hover{
+    background-color: red;
+    color: white;
+}
+.greenbtn
+{
+    border :2px solid green;
+}
+.greenbtn:hover{
+    background-color: green;
+    color: white;
+}
+.bluebtn
+{
+    border :2px solid blue;
+}
+.bluebtn:hover{
+    background-color: blue;
+    color: white;
+}
