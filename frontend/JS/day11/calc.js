@@ -4,9 +4,14 @@ function addition() {
     let n1 = parseInt(num1.value);
     let n2 = parseInt(num2.value);
 
+    if (isNaN(n1) || isNaN(n2)) {
+        alert("Please provide input for both numbers.");
+        return;
+    }
+
     let res = n1 + n2;
     let display = document.getElementById("result");
-    display.innerHTML = `<h2>  Addition is: ${res}</h2>`;
+    display.innerHTML = `<h2> Addition is: ${res}</h2>`;
 }
 
 function subtraction() {
@@ -14,6 +19,11 @@ function subtraction() {
     let num2 = document.getElementById("input2");
     let n1 = parseInt(num1.value);
     let n2 = parseInt(num2.value);
+
+    if (isNaN(n1) || isNaN(n2)) {
+        alert("Please provide input for both numbers.");
+        return;
+    }
 
     let display = document.getElementById("result");
 
@@ -31,6 +41,11 @@ function multiplication() {
     let n1 = parseInt(num1.value);
     let n2 = parseInt(num2.value);
 
+    if (isNaN(n1) || isNaN(n2)) {
+        alert("Please provide input for both numbers.");
+        return;
+    }
+
     let res = n1 * n2;
     let display = document.getElementById("result");
     display.innerHTML = `<h2> Multiplication is: ${res}</h2>`;
@@ -42,6 +57,11 @@ function division() {
     let n1 = parseInt(num1.value);
     let n2 = parseInt(num2.value);
 
+    if (isNaN(n1) || isNaN(n2)) {
+        alert("Please provide input for both numbers.");
+        return;
+    }
+
     let display = document.getElementById("result");
 
     if (n2 === 0) {
@@ -51,5 +71,3 @@ function division() {
         display.innerHTML = `<h2> Division is: ${res}</h2>`;
     }
 }
-
- 
